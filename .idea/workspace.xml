@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +49,8 @@
         <option value="GitHub Workflow" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,6 +96,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.Build Modul-1-Coding-Standards.executor": "Run",
     "Gradle.OrderTest.executor": "Run",
+    "Gradle.OrderTest.testCreateOrderSuccessStatus.executor": "Run",
     "Gradle.ProductControllerTest.executor": "Run",
     "Gradle.Tests in 'eshop.test'.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
