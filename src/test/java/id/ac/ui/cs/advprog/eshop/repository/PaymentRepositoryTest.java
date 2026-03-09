@@ -17,7 +17,7 @@ class PaymentRepositoryTest {
 
     @BeforeEach
     void setUp() {
-        paymentRepository = new PaymentRepository();
+        paymentRepository = new PaymentRepositoryImpl();
         payments = new ArrayList<>();
 
         Map<String, String> paymentData1 = new HashMap<>();
@@ -26,7 +26,7 @@ class PaymentRepositoryTest {
 
         Map<String, String> paymentData2 = new HashMap<>();
         paymentData2.put("address", "Jl. Cisokan No. 225");
-        paymentData2.put("deliveryFee", "10000");
+        paymentData2.put("deliveryFee", null);
         Payment payment2 = new Payment("bf48e85a-7b44-484d-9f84-95e1cb8b7f20", PaymentMethod.COD.getValue(), "REJECTED", paymentData2);
 
         payments.add(payment1);
@@ -35,7 +35,7 @@ class PaymentRepositoryTest {
 
     @Test
     void testSaveCreate() {
-        Payment payment = payments.get(0);
+        Payment payment = payments.getFirst();
         Payment result = paymentRepository.save(payment);
 
         Payment findResult = paymentRepository.findById(payment.getId());
@@ -51,7 +51,7 @@ class PaymentRepositoryTest {
         Payment payment = payments.get(1);
         paymentRepository.save(payment);
 
-        Payment newPayment = new Payment(payment.getId(), payment.getMethod(), PaymentStatus.REJECTED.getValue(), payment.getPaymentData());
+        Payment newPayment = new Payment(payment.getId(), PaymentMethod.VOUCHER.getValue(), PaymentStatus.REJECTED.getValue(), payment.getPaymentData());
         Payment result = paymentRepository.save(newPayment);
 
         Payment findResult = paymentRepository.findById(payment.getId());
