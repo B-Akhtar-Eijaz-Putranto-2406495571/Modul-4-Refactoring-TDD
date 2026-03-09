@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +64,12 @@
     &quot;assignee&quot;: &quot;akhtareijaz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/B-Akhtar-Eijaz-Putranto-2406495571/Modul-4-Refactoring-TDD.git",
-    "accountId": "b77fbef6-1ee9-4b56-b5f1-acd33796cc86"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/B-Akhtar-Eijaz-Putranto-2406495571/Modul-4-Refactoring-TDD.git&quot;,
+    &quot;accountId&quot;: &quot;b77fbef6-1ee9-4b56-b5f1-acd33796cc86&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\akhta\.gradle\wrapper\dists\gradle-9.3.0-bin\79n14ral3mx1ozqr3csh2u872\gradle-9.3.0" javaHome="C:\Program Files\Java\jdk-23" gradleVersion="9.3.0" />
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/repository/ProductRepository.java" root0="FORCE_HIGHLIGHTING" />
@@ -91,36 +92,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.Build Modul-1-Coding-Standards.executor": "Run",
-    "Gradle.OrderRepositoryTest.executor": "Run",
-    "Gradle.OrderTest.executor": "Run",
-    "Gradle.OrderTest.testCreateOrderSuccessStatus.executor": "Run",
-    "Gradle.ProductControllerTest.executor": "Run",
-    "Gradle.Tests in 'eshop.test'.executor": "Coverage",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.EshopApplication.executor": "Run",
-    "git-widget-placeholder": "order",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/akhta/OneDrive/Documents/Semester 4/Adpro/Modul-1-Coding-Standards",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.Build Modul-1-Coding-Standards.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.testCreateOrderSuccessStatus.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'eshop.test'.executor&quot;: &quot;Coverage&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EshopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;order&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/akhta/OneDrive/Documents/Semester 4/Adpro/Modul-1-Coding-Standards&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.OrderRepositoryTest">
     <configuration name="OrderRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -277,6 +278,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -295,6 +297,7 @@
       <workItem from="1771656079124" duration="415000" />
       <workItem from="1772109737683" duration="766000" />
       <workItem from="1772520497160" duration="1871000" />
+      <workItem from="1773033874653" duration="33000" />
     </task>
     <servers />
   </component>

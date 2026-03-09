@@ -85,7 +85,7 @@ tasks.jacocoTestReport {
 
 sonar {
     properties {
-        property("sonar.projectKey", "B-Akhtar-Eijaz-Putranto-2406495571_Modul-2-CI-CD-DevOps")
+        property("sonar.projectKey", "B-Akhtar-Eijaz-Putranto-2406495571_Modul-4-Refactoring-TDD")
         property("sonar.organization", "b-akhtar-eijaz-putranto-2406495571")
         property("sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml")
     }
