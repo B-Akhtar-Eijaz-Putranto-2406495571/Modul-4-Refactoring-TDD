@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/repository/PaymentRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +100,7 @@
     "Gradle.OrderServiceImplTest.executor": "Run",
     "Gradle.OrderTest.executor": "Run",
     "Gradle.OrderTest.testCreateOrderSuccessStatus.executor": "Run",
+    "Gradle.PaymentRepositoryTest.executor": "Run",
     "Gradle.PaymentTest.executor": "Run",
     "Gradle.PaymentTest.testCreatePaymentWithNullId.executor": "Run",
     "Gradle.ProductControllerTest.executor": "Run",
@@ -301,7 +303,7 @@
       <workItem from="1771656079124" duration="415000" />
       <workItem from="1772109737683" duration="766000" />
       <workItem from="1772520497160" duration="1871000" />
-      <workItem from="1773033874653" duration="13025000" />
+      <workItem from="1773033874653" duration="13331000" />
     </task>
     <servers />
   </component>
