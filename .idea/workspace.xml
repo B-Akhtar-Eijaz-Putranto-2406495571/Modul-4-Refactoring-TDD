@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +49,8 @@
         <option value="GitHub Workflow" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +124,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PaymentTest">
+  <component name="RunManager" selected="Gradle.PaymentRepositoryTest">
     <configuration name="OrderRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,7 +179,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="OrderTest.testCreateOrderSuccessStatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PaymentRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +192,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;id.ac.ui.cs.advprog.eshop.model.OrderTest.testCreateOrderSuccessStatus&quot;" />
+            <option value="&quot;id.ac.ui.cs.advprog.eshop.repository.PaymentRepositoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -272,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PaymentRepositoryTest" />
         <item itemvalue="Gradle.PaymentTest" />
         <item itemvalue="Gradle.PaymentTest.testCreatePaymentWithNullId" />
         <item itemvalue="Gradle.OrderServiceImplTest" />
         <item itemvalue="Gradle.OrderRepositoryTest" />
-        <item itemvalue="Gradle.OrderTest.testCreateOrderSuccessStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +301,7 @@
       <workItem from="1771656079124" duration="415000" />
       <workItem from="1772109737683" duration="766000" />
       <workItem from="1772520497160" duration="1871000" />
-      <workItem from="1773033874653" duration="11540000" />
+      <workItem from="1773033874653" duration="13025000" />
     </task>
     <servers />
   </component>
