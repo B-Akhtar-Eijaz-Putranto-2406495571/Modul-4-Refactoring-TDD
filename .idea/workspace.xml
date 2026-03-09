@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/model/PaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/model/PaymentTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +46,9 @@
       <list>
         <option value="GitHub Workflow" />
         <option value="HTML File" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -102,6 +98,7 @@
     "Gradle.OrderTest.executor": "Run",
     "Gradle.OrderTest.testCreateOrderSuccessStatus.executor": "Run",
     "Gradle.PaymentTest.executor": "Run",
+    "Gradle.PaymentTest.testCreatePaymentWithNullId.executor": "Run",
     "Gradle.ProductControllerTest.executor": "Run",
     "Gradle.Tests in 'eshop.test'.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -302,7 +299,7 @@
       <workItem from="1771656079124" duration="415000" />
       <workItem from="1772109737683" duration="766000" />
       <workItem from="1772520497160" duration="1871000" />
-      <workItem from="1773033874653" duration="10106000" />
+      <workItem from="1773033874653" duration="10477000" />
     </task>
     <servers />
   </component>
