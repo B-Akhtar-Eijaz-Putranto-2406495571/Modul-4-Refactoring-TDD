@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/model/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +126,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PaymentTest.testCreatePaymentWithNullId">
+  <component name="RunManager" selected="Gradle.PaymentTest">
     <configuration name="OrderRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -270,8 +272,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PaymentTest.testCreatePaymentWithNullId" />
         <item itemvalue="Gradle.PaymentTest" />
+        <item itemvalue="Gradle.PaymentTest.testCreatePaymentWithNullId" />
         <item itemvalue="Gradle.OrderServiceImplTest" />
         <item itemvalue="Gradle.OrderRepositoryTest" />
         <item itemvalue="Gradle.OrderTest.testCreateOrderSuccessStatus" />
@@ -301,7 +303,7 @@
       <workItem from="1771656079124" duration="415000" />
       <workItem from="1772109737683" duration="766000" />
       <workItem from="1772520497160" duration="1871000" />
-      <workItem from="1773033874653" duration="10776000" />
+      <workItem from="1773033874653" duration="11540000" />
     </task>
     <servers />
   </component>
