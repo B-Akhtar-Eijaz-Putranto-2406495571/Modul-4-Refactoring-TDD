@@ -36,10 +36,9 @@ class PaymentTest {
 
     @Test
     void testCreatePaymentWithInvalidStatus() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            Payment payment = new Payment("3f4f8b91-4606-46ce-8562-f363d823c8cb", "VOUCHER", "MEOW", this.paymentData);
-        }
-
+        assertThrows(IllegalArgumentException.class, () ->
+                new Payment("3f4f8b91-4606-46ce-8562-f363d823c8cb", "VOUCHER", "MEOW", this.paymentData)
+        );
     }
 
     @Test
