@@ -64,3 +64,24 @@ yang bisa dilakukan salah satunya adalah inheritance, yaitu membuat sebuah paren
      - Jika kita mempunyai satu CarRepository besar, class lain yang hanya perlu mengambil data tetap harus menanggung beban dari metode write dan delete. Ini membuat pemahaman terhadap kode menjadi sulit dan setiap ada perubahan pada proses write, class tersebut yang hanya melakukan read terpaksa harus ikut dikompilasi ulang.
    
 </details>
+
+<details>
+<Summary><b>Refleksi 5</b></Summary>
+
+1. Secara keseluruhan, TDD flow yang saya ikuti cukup berguna karena memaksa saya untuk memikirkan perilaku yang diharapkan dari kode sebelum menulisnya. 
+    - Berikut ini adalah hal yang telah saya lakukan:
+      - Saya menulis test terlebih dahulu sebelum implementasi, sehingga tujuan kode lebih jelas. Siklus Red-Green-Refactor membantu saya fokus pada satu fitur kecil di satu waktu 
+      - Test yang ada memberikan rasa aman saat melakukan refactoring karena saya bisa langsung tahu jika ada yang rusak.
+    - Yang mungkin perlu diperbaiki:
+      - Terkadang saya masih ingin menulis implementasi dulu baru test menyesuaikan, yang berarti test tidak benar-benar menguji perilaku melainkan hanya mengkonfirmasi kode yang sudah ada.
+      - Saya juga perlu lebih fokus pada "Testing Behavior, not Implementation". Terkadang, tes yang terlalu terikat pada detail internal membuat perubahan kecil pada kode memerlukan perubahan besar pada tes.
+   
+2. Unit test yang udah dibuat secara umum sudah mencoba mengikuti prinsip F.I.R.S.T:
+    - Fast: Tes berjalan sangat cepat karena menggunakan JUnit dan Mockito tanpa perlu menjalankan server atau database asli.
+    - Independent: Setiap metode tes memiliki setUp() yang menginisialisasi ulang data (seperti products atau orders), sehingga hasil satu tes tidak memengaruhi tes lainnya.
+    - Repeatable: Tes memberikan hasil yang sama di lingkungan manapun karena tidak bergantung pada faktor eksternal seperti koneksi internet.
+    - Self-Validating: Tes menggunakan assertions yang secara otomatis menentukan lulus atau gagal tanpa perlu pengecekan manual.
+    - Timely: Karena menggunakan alur TDD, tes dibuat sebelum kode implementasi, yang merupakan inti dari prinsip ini.
+
+
+</details>
