@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/service/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/ac/ui/cs/advprog/eshop/service/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/service/PaymentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/service/PaymentServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +100,14 @@
     "Gradle.OrderTest.executor": "Run",
     "Gradle.OrderTest.testCreateOrderSuccessStatus.executor": "Run",
     "Gradle.PaymentRepositoryTest.executor": "Run",
-    "Gradle.PaymentServiceImplTest.executor": "Run",
+    "Gradle.PaymentServiceImplTest.executor": "Debug",
     "Gradle.PaymentServiceImplTest.testAddPaymentCODInvalidFee.executor": "Run",
     "Gradle.PaymentServiceImplTest.testAddPaymentVoucherValid.executor": "Run",
     "Gradle.PaymentTest.executor": "Run",
     "Gradle.PaymentTest.testCreatePaymentWithNullId.executor": "Run",
     "Gradle.ProductControllerTest.executor": "Run",
     "Gradle.Tests in 'eshop.test'.executor": "Coverage",
+    "JavaScript Debug.orderHistoryList.html.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -127,10 +126,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PaymentServiceImplTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akhta\OneDrive\Documents\Semester 4\Adpro\Modul-1-Coding-Standards\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="PaymentRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -311,7 +316,7 @@
       <workItem from="1773060330457" duration="3958000" />
       <workItem from="1773074062787" duration="1581000" />
       <workItem from="1773124494604" duration="1750000" />
-      <workItem from="1773130295987" duration="3781000" />
+      <workItem from="1773130295987" duration="5988000" />
     </task>
     <servers />
   </component>
