@@ -55,8 +55,7 @@ class PaymentServiceImplTest {
         Map<String, String> paymentData = new HashMap<>();
         paymentData.put("voucherCode", "ESHOP1234ABC5678");
 
-        Payment payment = new Payment("pay-1", PaymentMethod.VOUCHER.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.VOUCHER.getValue(), paymentData);
 
@@ -70,8 +69,7 @@ class PaymentServiceImplTest {
         Map<String, String> paymentData = new HashMap<>();
         paymentData.put("voucherCode", "ESHOP1234ABC");
 
-        Payment payment = new Payment("pay-2", PaymentMethod.VOUCHER.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.VOUCHER.getValue(), paymentData);
 
@@ -84,8 +82,7 @@ class PaymentServiceImplTest {
         Map<String, String> paymentData = new HashMap<>();
         paymentData.put("voucherCode", "DISC1234ABC56789");
 
-        Payment payment = new Payment("pay-3", PaymentMethod.VOUCHER.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.VOUCHER.getValue(), paymentData);
 
@@ -98,8 +95,7 @@ class PaymentServiceImplTest {
         Map<String, String> paymentData = new HashMap<>();
         paymentData.put("voucherCode", "ESHOP123ABCDEFGH");
 
-        Payment payment = new Payment("pay-4", PaymentMethod.VOUCHER.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.VOUCHER.getValue(), paymentData);
 
@@ -113,8 +109,7 @@ class PaymentServiceImplTest {
         paymentData.put("address", "Jalan Margonda Raya");
         paymentData.put("deliveryFee", "10000");
 
-        Payment payment = new Payment("pay-5", PaymentMethod.COD.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.COD.getValue(), paymentData);
 
@@ -128,8 +123,7 @@ class PaymentServiceImplTest {
         paymentData.put("address", "");
         paymentData.put("deliveryFee", "10000");
 
-        Payment payment = new Payment("pay-6", PaymentMethod.COD.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.COD.getValue(), paymentData);
 
@@ -142,8 +136,7 @@ class PaymentServiceImplTest {
         Map<String, String> paymentData = new HashMap<>();
         paymentData.put("address", "Jalan Margonda Raya");
 
-        Payment payment = new Payment("pay-7", PaymentMethod.COD.getValue(), paymentData);
-        doReturn(payment).when(paymentRepository).save(any(Payment.class));
+        when(paymentRepository.save(any(Payment.class))).thenAnswer(invocation -> invocation.getArgument(0));
 
         Payment result = paymentService.addPayment(order, PaymentMethod.COD.getValue(), paymentData);
 
@@ -159,12 +152,13 @@ class PaymentServiceImplTest {
         Payment payment = new Payment("pay-8", PaymentMethod.VOUCHER.getValue(), paymentData);
 
         doReturn(payment).when(paymentRepository).save(any(Payment.class));
-        doReturn(order).when(orderRepository).findById(order.getId()); // Mock pencarian Order
+        doReturn(order).when(orderRepository).findById(order.getId());
 
         Payment result = paymentService.setStatus(payment, PaymentStatus.SUCCESS.getValue());
 
         assertEquals(PaymentStatus.SUCCESS.getValue(), result.getStatus());
-        assertEquals(OrderStatus.SUCCESS.getValue(), order.getStatus()); // Cek status order langsung
+        assertEquals(OrderStatus.SUCCESS.getValue(), order.getStatus());
+
     }
 
     @Test
@@ -181,7 +175,7 @@ class PaymentServiceImplTest {
         Payment result = paymentService.setStatus(payment, PaymentStatus.REJECTED.getValue());
 
         assertEquals(PaymentStatus.REJECTED.getValue(), result.getStatus());
-        assertEquals(OrderStatus.FAILED.getValue(), order.getStatus()); // Order harus FAILED
+        assertEquals(OrderStatus.FAILED.getValue(), order.getStatus());
     }
 
     @Test
