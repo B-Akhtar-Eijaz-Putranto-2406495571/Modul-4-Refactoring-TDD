@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7ae378-6595-4b0a-8f40-f9f3186a674f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/functional/CreateProductFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/id/ac/ui/cs/advprog/eshop/functional/CreateProductFunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createOrder.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +97,14 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.Build Modul-1-Coding-Standards.executor": "Run",
+    "Gradle.CreateProductFunctionalTest.executor": "Run",
+    "Gradle.HomePageFunctionalTest.executor": "Run",
+    "Gradle.OrderFunctionalTest.executor": "Run",
     "Gradle.OrderRepositoryTest.executor": "Run",
     "Gradle.OrderServiceImplTest.executor": "Run",
     "Gradle.OrderTest.executor": "Run",
     "Gradle.OrderTest.testCreateOrderSuccessStatus.executor": "Run",
+    "Gradle.PaymentFunctionalTest.executor": "Run",
     "Gradle.PaymentRepositoryTest.executor": "Run",
     "Gradle.PaymentServiceImplTest.executor": "Debug",
     "Gradle.PaymentServiceImplTest.testAddPaymentCODInvalidFee.executor": "Run",
@@ -135,8 +141,8 @@
       <recent name="C:\Users\akhta\OneDrive\Documents\Semester 4\Adpro\Modul-1-Coding-Standards\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="PaymentRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PaymentFunctionalTest">
+    <configuration name="CreateProductFunctionalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +155,88 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;id.ac.ui.cs.advprog.eshop.repository.PaymentRepositoryTest&quot;" />
+            <option value="&quot;id.ac.ui.cs.advprog.eshop.functional.CreateProductFunctionalTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomePageFunctionalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;id.ac.ui.cs.advprog.eshop.functional.HomePageFunctionalTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderFunctionalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;id.ac.ui.cs.advprog.eshop.functional.OrderFunctionalTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PaymentFunctionalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;id.ac.ui.cs.advprog.eshop.functional.PaymentFunctionalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,87 +277,6 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="PaymentServiceImplTest.testAddPaymentCODInvalidFee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;id.ac.ui.cs.advprog.eshop.service.PaymentServiceImplTest.testAddPaymentCODInvalidFee&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PaymentServiceImplTest.testAddPaymentVoucherValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;id.ac.ui.cs.advprog.eshop.service.PaymentServiceImplTest.testAddPaymentVoucherValid&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PaymentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;id.ac.ui.cs.advprog.eshop.model.PaymentTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
     <configuration name="EshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="eshop.main" />
@@ -281,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PaymentFunctionalTest" />
+        <item itemvalue="Gradle.OrderFunctionalTest" />
+        <item itemvalue="Gradle.CreateProductFunctionalTest" />
+        <item itemvalue="Gradle.HomePageFunctionalTest" />
         <item itemvalue="Gradle.PaymentServiceImplTest" />
-        <item itemvalue="Gradle.PaymentServiceImplTest.testAddPaymentVoucherValid" />
-        <item itemvalue="Gradle.PaymentServiceImplTest.testAddPaymentCODInvalidFee" />
-        <item itemvalue="Gradle.PaymentRepositoryTest" />
-        <item itemvalue="Gradle.PaymentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +322,7 @@
       <workItem from="1773060330457" duration="3958000" />
       <workItem from="1773074062787" duration="1581000" />
       <workItem from="1773124494604" duration="1750000" />
-      <workItem from="1773130295987" duration="6208000" />
+      <workItem from="1773130295987" duration="9368000" />
     </task>
     <servers />
   </component>
