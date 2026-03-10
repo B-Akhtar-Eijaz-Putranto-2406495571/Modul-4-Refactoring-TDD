@@ -23,25 +23,19 @@ public class PaymentServiceImpl implements PaymentService {
     @Autowired
     private OrderRepository orderRepository;
 
+    @Autowired
+    private List<PaymentValidator> paymentValidators;
+
     @Override
     public Payment addPayment(Order order, String method, Map<String, String> paymentData) {
         paymentData.put("orderId", order.getId());
 
         String status = PaymentStatus.REJECTED.getValue();
 
-        if (PaymentMethod.VOUCHER.getValue().equals(method)) {
-            String voucherCode = paymentData.get("voucherCode");
-            if (voucherCode != null && voucherCode.length() == 16 && voucherCode.startsWith("ESHOP")) {
-                long numericCount = voucherCode.chars().filter(Character::isDigit).count();
-                if (numericCount == 8) {
-                    status = PaymentStatus.SUCCESS.getValue();
-                }
-            }
-        } else if (PaymentMethod.COD.getValue().equals(method)) {
-            String address = paymentData.get("address");
-            String deliveryFee = paymentData.get("deliveryFee");
-            if (address != null && !address.isEmpty() && deliveryFee != null && !deliveryFee.isEmpty()) {
-                status = PaymentStatus.SUCCESS.getValue();
+        for (PaymentValidator validator : paymentValidators) {
+            if (validator.supports(method)) {
+                status = validator.validate(paymentData);
+                break;
             }
         }
 

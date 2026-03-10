@@ -13,6 +13,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.*;
@@ -32,6 +33,9 @@ class PaymentServiceImplTest {
     @Mock
     OrderRepository orderRepository;
 
+    @Spy
+    private List<PaymentValidator> validators = new ArrayList<>();
+
     private List<Order> orders;
 
     @BeforeEach
@@ -47,6 +51,9 @@ class PaymentServiceImplTest {
         Order order1 = new Order("13652556-012a-4c07-b546-54eb1396d79b",
                 products, 1708560000L, "Safira Sudrajat");
         orders.add(order1);
+
+        validators.add(new VoucherPaymentValidator());
+        validators.add(new CodPaymentValidator());
     }
 
     @Test
