@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Payment</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h3>Check Payment Status</h3>
+    <hr>
+    <form th:action="@{/payment/detail}" method="get">
+        <div class="form-group">
+            <label for="paymentId" class="font-weight-bold">Payment ID</label>
+            <input type="text" name="paymentId" id="paymentId" class="form-control col-md-6" placeholder="Enter your Payment ID" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

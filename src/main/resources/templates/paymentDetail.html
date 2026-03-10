@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Detail</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-4">
+    <h3>Payment Information</h3>
+    <hr>
+    <p><strong>Payment ID:</strong> <span th:text="${payment.id}"></span></p>
+    <p><strong>Method:</strong> <span th:text="${payment.method}"></span></p>
+    <p><strong>Status:</strong>
+        <span th:classappend="${payment.status == 'SUCCESS' ? 'badge-success' : (payment.status == 'REJECTED' ? 'badge-danger' : 'badge-warning')}"
+              class="badge" th:text="${payment.status}"></span>
+    </p>
+
+    <div th:if="${payment.method == 'VOUCHER'}" class="alert alert-info mt-3">
+        <strong>Voucher Code:</strong> <span th:text="${payment.paymentData['voucherCode']}"></span>
+    </div>
+
+    <div th:if="${payment.method == 'COD'}" class="alert alert-info mt-3">
+        <p><strong>Delivery Address:</strong> <span th:text="${payment.paymentData['address']}"></span></p>
+        <p><strong>Delivery Fee:</strong> Rp <span th:text="${payment.paymentData['deliveryFee']}"></span></p>
+    </div>
+
+    <a th:href="@{/payment/detail}" class="btn btn-secondary mt-3">Back to Search</a>
+</div>
+</body>
+</html>

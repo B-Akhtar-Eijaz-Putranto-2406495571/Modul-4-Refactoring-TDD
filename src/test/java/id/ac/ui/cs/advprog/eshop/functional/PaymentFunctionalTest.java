@@ -34,7 +34,7 @@ class PaymentFunctionalTest {
         driver.get(baseUrl + "/payment/detail");
 
         String pageTitle = driver.getTitle();
-        assertEquals("Payment Detail", pageTitle);
+        assertEquals("Search Payment", pageTitle);
     }
 
     @Test
@@ -42,6 +42,6 @@ class PaymentFunctionalTest {
         driver.get(baseUrl + "/payment/admin/list");
 
         String pageTitle = driver.getTitle();
-        assertEquals("All Payments", pageTitle);
+        assertEquals("All Payments - Admin", pageTitle);
     }
 }
